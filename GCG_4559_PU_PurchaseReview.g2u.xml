@@ -1,0 +1,2964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>None</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>2187</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>2187</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>2187</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.FrmPO..Create</string>
+        <string>Gui.FrmPO..Size(15360,10695)</string>
+        <string>Gui.FrmPO..MinX(15360)</string>
+        <string>Gui.FrmPO..MinY(10695)</string>
+        <string>Gui.FrmPO..Position(0,0)</string>
+        <string>Gui.FrmPO..BackColor(-2147483633)</string>
+        <string>Gui.FrmPO..MousePointer(0)</string>
+        <string>Gui.FrmPO..Event(UnLoad,FrmPO_UnLoad)</string>
+        <string>Gui.FrmPO..Caption("Purchase Order Review with PO Confirmation")</string>
+        <string>Gui.FrmPO.tabPODash.Create(Tab)</string>
+        <string>Gui.FrmPO.tabPODash.Size(15120,9015)</string>
+        <string>Gui.FrmPO.tabPODash.Position(15,1125)</string>
+        <string>Gui.FrmPO.tabPODash.Tabs(4)</string>
+        <string>Gui.FrmPO.tabPODash.SetTab(0)</string>
+        <string>Gui.FrmPO.tabPODash.Caption("All POs")</string>
+        <string>Gui.FrmPO.tabPODash.SetTab(1)</string>
+        <string>Gui.FrmPO.tabPODash.Caption("Expected Today")</string>
+        <string>Gui.FrmPO.tabPODash.SetTab(2)</string>
+        <string>Gui.FrmPO.tabPODash.Caption("Past Due")</string>
+        <string>Gui.FrmPO.tabPODash.SetTab(3)</string>
+        <string>Gui.FrmPO.tabPODash.Caption("Outside Service Request")</string>
+        <string>Gui.FrmPO.GsGCAllPOs.Create(GsGridControl)</string>
+        <string>Gui.FrmPO.GsGCAllPOs.Size(15000,8655)</string>
+        <string>Gui.FrmPO.GsGCAllPOs.Position(0,0)</string>
+        <string>Gui.FrmPO.GsGCAllPOs.Parent("tabPODash",0)</string>
+        <string>Gui.FrmPO.GsGCAllPOs.Event(RowCellClick,GsGCAllPOs_RowCellClick)</string>
+        <string>Gui.FrmPO.GsGCAllPOs.Event(CellValueChanged,GsGCAllPOs_CellValueChanged)</string>
+        <string>Gui.FrmPO.GsGCExpToday.Create(GsGridControl)</string>
+        <string>Gui.FrmPO.GsGCExpToday.Size(15000,8655)</string>
+        <string>Gui.FrmPO.GsGCExpToday.Position(0,0)</string>
+        <string>Gui.FrmPO.GsGCExpToday.Parent("tabPODash",1)</string>
+        <string>Gui.FrmPO.GsGCExpToday.Event(RowCellClick,GsGCExpToday_RowCellClick)</string>
+        <string>Gui.FrmPO.GsGCExpToday.Event(CellValueChanged,GsGCExpToday_CellValueChanged)</string>
+        <string>Gui.FrmPO.GsGCPastDue.Create(GsGridControl)</string>
+        <string>Gui.FrmPO.GsGCPastDue.Size(15000,8655)</string>
+        <string>Gui.FrmPO.GsGCPastDue.Position(0,0)</string>
+        <string>Gui.FrmPO.GsGCPastDue.Parent("tabPODash",2)</string>
+        <string>Gui.FrmPO.GsGCPastDue.Event(RowCellClick,GsGCPastDue_RowCellClick)</string>
+        <string>Gui.FrmPO.GsGCPastDue.Event(CellValueChanged,GsGCPastDue_CellValueChanged)</string>
+        <string>Gui.FrmPO.GsGCOSV.Create(GsGridControl)</string>
+        <string>Gui.FrmPO.GsGCOSV.Size(15000,8655)</string>
+        <string>Gui.FrmPO.GsGCOSV.Position(0,0)</string>
+        <string>Gui.FrmPO.GsGCOSV.Parent("tabPODash",3)</string>
+        <string>Gui.FrmPO.GsGCOSV.Event(RowCellClick,GsGCOSV_RowCellClick)</string>
+        <string>Gui.FrmPO.progressBar1.Create(ProgressBar)</string>
+        <string>Gui.FrmPO.progressBar1.Visible(False)</string>
+        <string>Gui.FrmPO.progressBar1.Size(3750,255)</string>
+        <string>Gui.FrmPO.progressBar1.Position(75,360)</string>
+        <string>Gui.FrmPO.lbl1.Create(Label,"***Change***",False,3750,255,0,75,120,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.FrmPO.picGSSLogo.Create(PictureBox)</string>
+        <string>Gui.FrmPO.picGSSLogo.Size(4125,960)</string>
+        <string>Gui.FrmPO.picGSSLogo.Position(5520,45)</string>
+        <string>Gui.FrmPO.picGSSLogo.Event(DblClick,picGSSLogo_DblClick)</string>
+        <string>Gui.FrmPO.picGSSLogo.ToolTip("Double-Click for additional functions")</string>
+        <string>Gui.FrmPO.framePermissions.Create(Frame)</string>
+        <string>Gui.FrmPO.framePermissions.Size(2415,420)</string>
+        <string>Gui.FrmPO.framePermissions.Position(12630,585)</string>
+        <string>Gui.FrmPO.optView.Create(Option)</string>
+        <string>Gui.FrmPO.optView.Caption("View")</string>
+        <string>Gui.FrmPO.optView.Event(Click,optView_Click)</string>
+        <string>Gui.FrmPO.optView.Parent("framePermissions")</string>
+        <string>Gui.FrmPO.optView.Size(690,195)</string>
+        <string>Gui.FrmPO.optView.Position(90,165)</string>
+        <string>Gui.FrmPO.optEdit.Create(Option)</string>
+        <string>Gui.FrmPO.optEdit.Caption("Edit")</string>
+        <string>Gui.FrmPO.optEdit.Enabled(False)</string>
+        <string>Gui.FrmPO.optEdit.Event(Click,optEdit_Click)</string>
+        <string>Gui.FrmPO.optEdit.Parent("framePermissions")</string>
+        <string>Gui.FrmPO.optEdit.Size(660,195)</string>
+        <string>Gui.FrmPO.optEdit.Position(780,165)</string>
+        <string>Gui.FrmPO.optRecv.Create(Option)</string>
+        <string>Gui.FrmPO.optRecv.Enabled(False)</string>
+        <string>Gui.FrmPO.optRecv.Caption("Receive")</string>
+        <string>Gui.FrmPO.optRecv.BackColor(15790320)</string>
+        <string>Gui.FrmPO.optRecv.ForeColor(0)</string>
+        <string>Gui.FrmPO.optRecv.Event(Click,optRecv_Click)</string>
+        <string>Gui.FrmPO.optRecv.Parent("framePermissions")</string>
+        <string>Gui.FrmPO.optRecv.Size(945,195)</string>
+        <string>Gui.FrmPO.optRecv.Position(1440,165)</string>
+        <string>Gui.FrmPO.frameButtons.Create(Frame)</string>
+        <string>Gui.FrmPO.frameButtons.Size(2850,600)</string>
+        <string>Gui.FrmPO.frameButtons.Position(12195,75)</string>
+        <string>Gui.FrmPO.cmdExport.Create(Button)</string>
+        <string>Gui.FrmPO.cmdExport.Size(840,375)</string>
+        <string>Gui.FrmPO.cmdExport.Caption("Export")</string>
+        <string>Gui.FrmPO.cmdExport.Event(Click,cmdExport_Click)</string>
+        <string>Gui.FrmPO.cmdExport.Parent("frameButtons")</string>
+        <string>Gui.FrmPO.cmdExport.Position(1020,165)</string>
+        <string>Gui.FrmPO.cmdRefresh.Create(Button)</string>
+        <string>Gui.FrmPO.cmdRefresh.Size(840,375)</string>
+        <string>Gui.FrmPO.cmdRefresh.Position(90,165)</string>
+        <string>Gui.FrmPO.cmdRefresh.Caption("REFRESH")</string>
+        <string>Gui.FrmPO.cmdRefresh.Event(Click,cmdRefresh_Click)</string>
+        <string>Gui.FrmPO.cmdRefresh.Parent("frameButtons")</string>
+        <string>Gui.FrmPO.cmdNewPO.Create(Button)</string>
+        <string>Gui.FrmPO.cmdNewPO.Size(840,375)</string>
+        <string>Gui.FrmPO.cmdNewPO.Position(1950,165)</string>
+        <string>Gui.FrmPO.cmdNewPO.Parent("frameButtons")</string>
+        <string>Gui.FrmPO.cmdNewPO.Caption("New PO")</string>
+        <string>Gui.FrmPO.cmdNewPO.Event(Click,cmdNewPO_Click)</string>
+        <string>Gui.frmWeb..Create</string>
+        <string>Gui.frmWeb..Caption("Global Shop Solutions - Web Sites")</string>
+        <string>Gui.frmWeb..Size(3990,2025)</string>
+        <string>Gui.frmWeb..MinX(0)</string>
+        <string>Gui.frmWeb..MinY(0)</string>
+        <string>Gui.frmWeb..Position(0,0)</string>
+        <string>Gui.frmWeb..BackColor(-2147483633)</string>
+        <string>Gui.frmWeb..MousePointer(0)</string>
+        <string>Gui.frmWeb..MaxButton(False)</string>
+        <string>Gui.frmWeb..Sizeable(False)</string>
+        <string>Gui.frmWeb..Event(UnLoad,frmWeb_UnLoad)</string>
+        <string>Gui.frmWeb..MinButton(False)</string>
+        <string>Gui.frmWeb.cmdGSS.Create(Button)</string>
+        <string>Gui.frmWeb.cmdGSS.Size(3615,375)</string>
+        <string>Gui.frmWeb.cmdGSS.Position(120,45)</string>
+        <string>Gui.frmWeb.cmdGSS.Caption("Global Shop Solutions")</string>
+        <string>Gui.frmWeb.cmdGSS.Event(Click,cmdGSS_Click)</string>
+        <string>Gui.frmWeb.cmdServ.Create(Button)</string>
+        <string>Gui.frmWeb.cmdServ.Size(3615,375)</string>
+        <string>Gui.frmWeb.cmdServ.Position(120,450)</string>
+        <string>Gui.frmWeb.cmdServ.Caption("ServiceWeb")</string>
+        <string>Gui.frmWeb.cmdServ.Event(Click,cmdServ_Click)</string>
+        <string>Gui.frmWeb.cmdUpd.Create(Button)</string>
+        <string>Gui.frmWeb.cmdUpd.Size(3615,375)</string>
+        <string>Gui.frmWeb.cmdUpd.Position(120,855)</string>
+        <string>Gui.frmWeb.cmdUpd.Caption("GSS Updates")</string>
+        <string>Gui.frmWeb.cmdUpd.Event(Click,cmdUpd_Click)</string>
+        <string>Gui.frmWeb.cmdResetGsGC.Create(Button)</string>
+        <string>Gui.frmWeb.cmdResetGsGC.Size(3615,375)</string>
+        <string>Gui.frmWeb.cmdResetGsGC.Position(120,1260)</string>
+        <string>Gui.frmWeb.cmdResetGsGC.Caption("Reset All Columns")</string>
+        <string>Gui.frmWeb.cmdResetGsGC.Event(Click,cmdResetGsGC_Click)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>	V.Global.iPrintAudit.Declare</string>
+        <string>	V.Global.bLoadData.Declare</string>
+        <string>	V.Global.sGvAllPOs.Declare</string>
+        <string>	V.Global.sGvExpToday.Declare</string>
+        <string>	V.Global.sGvPastDue.Declare</string>
+        <string>	V.Global.sGvOSV.Declare</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sIcon.Declare</string>
+        <string>	V.Local.bEditGrp.Declare</string>
+        <string>	V.Local.sGssLogo.Declare</string>
+        <string>	V.Local.sDir.Declare</string>
+        <string>	V.Local.bDir.Declare</string>
+        <string />
+        <string>	F.Intrinsic.String.Build("{0}\GAB\GAS\gss2.ico",V.Caller.PluginsDir,v.Local.sIcon)</string>
+        <string>	F.Intrinsic.String.Build("{0}\GAB\GAS\GAB_GSS_Logo_Green_Dash.png",V.Caller.PluginsDir,V.Local.sGssLogo)</string>
+        <string>	Gui.frmWeb..Icon(V.Local.sIcon)</string>
+        <string>	Gui.FrmPO..Icon(V.Local.sIcon)</string>
+        <string>	Gui.FrmPO.picGSSLogo.Picture(V.Local.sGssLogo)</string>
+        <string />
+        <string>	Gui.FrmPO.tabPODash.SetTab(0)</string>
+        <string />
+        <string>	Function.Intrinsic.Control.CallSub(setanchors)</string>
+        <string />
+        <string>	'Check Directory</string>
+        <string>	F.Intrinsic.String.Build("{0}\Grids",V.Caller.GasDir,V.Caller.User,V.Local.sDir)</string>
+        <string>	F.Intrinsic.File.DirExists(V.Local.sDir,V.Local.bDir)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bDir,=,False)</string>
+        <string>		F.Intrinsic.File.CreateDir(V.Local.sDir)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	'Set Serialize Files</string>
+        <string>	F.Intrinsic.String.Build("{0}\Grids\GCG_4559_{1}_GvAllPOs.txt",V.Caller.GasDir,V.Caller.User,V.Global.sGvAllPOs)</string>
+        <string>	F.Intrinsic.String.Build("{0}\Grids\GCG_4559_{1}_GvExpToday.txt",V.Caller.GasDir,V.Caller.User,V.Global.sGvExpToday)</string>
+        <string>	F.Intrinsic.String.Build("{0}\Grids\GCG_4559_{1}_GvPastDue.txt",V.Caller.GasDir,V.Caller.User,V.Global.sGvPastDue)</string>
+        <string>	F.Intrinsic.String.Build("{0}\Grids\GCG_4559_{1}_GvOSV.txt",V.Caller.GasDir,V.Caller.User,V.Global.sGvOSV)</string>
+        <string />
+        <string>	'Check Print Audit Option</string>
+        <string>	F.Global.General.ReadOption(400367,3,0000,V.Global.iPrintAudit)</string>
+        <string />
+        <string>	'Check iF the User is in EDIT Group, to enable the Edit button to edit SO</string>
+        <string>	F.Global.Security.IsInGroup(V.Caller.User,"EditPO",V.Local.bEditGrp)</string>
+        <string>	F.Intrinsic.Control.IF(V.Local.bEditGrp,=,False)</string>
+        <string>		Gui.FrmPO.optEdit.Enabled(False)</string>
+        <string>		Gui.FrmPO.cmdNewPO.Enabled(False)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.FrmPO.optEdit.Enabled(True)</string>
+        <string>		Gui.FrmPO.cmdNewPO.Enabled(True)</string>
+        <string>	F.Intrinsic.Control.EndIF</string>
+        <string />
+        <string>	'Check if the User is in RECEIVE Group, to enable the Edit button to edit SO</string>
+        <string>	F.Global.Security.IsInGroup(V.Caller.User,"RECEIVE",V.Local.bEditGrp)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bEditGrp,=,False)</string>
+        <string>		Gui.FrmPO.optRecv.Enabled(False)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.FrmPO.optRecv.Enabled(True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass,300)</string>
+        <string />
+        <string>	F.Intrinsic.Control.CallSub(controlsdisabled)</string>
+        <string>	Gui.FrmPO..Show</string>
+        <string>	F.Intrinsic.Control.CallSub(checktable)</string>
+        <string>	F.Intrinsic.Control.BlockEvents</string>
+        <string>	F.Intrinsic.Control.CallSub(callsubs)</string>
+        <string>	F.Intrinsic.Control.UnBlockEvents</string>
+        <string>	F.Intrinsic.Control.CallSub(controlsenabled)</string>
+        <string>	Gui.FrmPO.optView.Value(True)</string>
+        <string>	F.Intrinsic.Control.CallSub(Deserialize)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.cmdReFresh_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Global.bLoadData)</string>
+        <string>		F.Intrinsic.Control.CallSub(Serialize)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.CallSub(controlsdisabled)</string>
+        <string>	F.Intrinsic.Control.BlockEvents</string>
+        <string>	F.Intrinsic.Control.CallSub(callsubs)</string>
+        <string>	F.Intrinsic.Control.UnBlockEvents</string>
+        <string>	F.Intrinsic.Control.CallSub(controlsenabled)</string>
+        <string>	F.Intrinsic.Control.CallSub(Deserialize)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.cmdReFresh_Click.End</string>
+        <string />
+        <string>Program.Sub.LoadDTAllPOs.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	'Check to see if DataTable already Exists and if so, close it</string>
+        <string>	F.Intrinsic.Control.IF(V.DataTable.dtAllPOs.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("dtAllPOs")</string>
+        <string>		Gui.FrmPO.GsGCAllPOs.ClearGrouping("gvAllPOs")</string>
+        <string>	F.Intrinsic.Control.EndIF</string>
+        <string />
+        <string>	V.Global.bLoadData.Set(True)</string>
+        <string />
+        <string>	'Create DataTable from SQL</string>
+        <string>	V.Local.sSQL.Declare(String,"SELECT DISTINCT CASE WHEN TPC.CONF IS NULL THEN CONVERT(0,SQL_BIT) WHEN CONF = 0 THEN CONVERT(0,SQL_BIT) WHEN CONF = 1 THEN CONVERT(1,SQL_BIT) END AS CONF,VPL.PURCHASE_ORDER,LEFT(RECORD_NO,3) AS RECORD_NO,VPVB.NAME_VENDOR, VPL.PART, VPL.LOCATION, VPL.DESCRIPTION, VPL.PRODUCT_LINE, VPH.BUYER,VPH.DATE_ORDER AS PO_DATE, VPL.ORIG_DUE_DATE, VPL.DATE_DUE_LINE,VPL.QTY_ORDER, VPL.QTY_RECEIVED, (VPL.QTY_ORDER-VPL.QTY_RECEIVED)AS QTY_OPEN, VPL.QTY_RECD_NOT_INSP,VPL.COST,VPL.EXTENSION, VPL.JOB, VPL.SUFFIX,VPH.SHIP_VIA,VPL.BLANKET_PO,CASE WHEN TYPE = 0 THEN IF(SUBSTRING(PART,17,1) = '*','Outside','Normal') WHEN TYPE = 1 THEN 'Blanket' END AS TYPE,A.NOTES,VPL.USER_5 From V_PO_LINES VPL LEFT JOIN V_PO_VENDOR_BUY VPVB ON VPL.PURCHASE_ORDER = VPVB.PURCHASE_ORDER LEFT JOIN V_PO_HEADER VPH ON VPL.PURCHASE_ORDER=VPH.PURCHASE_ORDER LEFT JOIN GCG_4559_PO_CONFCHK TPC ON VPL.PURCHASE_ORDER=TPC.PURCHASE_ORDER LEFT JOIN GCG_4559_PO_NOTES A ON VPL.PURCHASE_ORDER = A.PO AND RECORD_NO = CONCAT(A.POLINE,0) WHERE FLAG_RECV_CLOSE &lt;&gt; 'Y' AND QTY_OPEN &gt;=0 ORDER BY DATE_DUE_LINE;")</string>
+        <string>	F.Data.DataTable.CreateFromSQL("dtAllPOs","con",V.Local.sSQL,True)</string>
+        <string />
+        <string>	'Call Subroutine to build GridView to Grid on form</string>
+        <string>	F.Intrinsic.Control.CallSub(LoadDvGvAllPOs)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDTAllPOs.End</string>
+        <string />
+        <string>Program.Sub.LoadDvGvAllPOs.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sCaption.Declare</string>
+        <string />
+        <string>	'Create GridView from DataView</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.AddGridviewFromDatatable("gvAllPOs","dtAllPOs")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.MainView("gvAllPOs")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SuspendLayout()</string>
+        <string>	'Set Grid Propertites</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetGridViewProperty("gvAllPOs","MultiSelect",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetGridViewProperty("gvAllPOs","AllowSort",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetGridViewProperty("gvAllPOs","AllowFilter",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetGridViewProperty("gvAllPOs","OptionsDetailShowDetailTabs",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetGridViewProperty("gvAllPOs","OptionsViewShowGroupPanel",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetGridViewProperty("gvAllPOs","EnableAppearanceOddRow",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","Caption","Confirmation")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","Caption","PO #")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","Caption","Ln")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NAME_VENDOR","Caption","Vendor Name")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PART","Caption","Part Number")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","LOCATION","Caption","Loc")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DESCRIPTION","Caption","Part Description")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PRODUCT_LINE","Caption","PL")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BUYER","Caption","Buyer")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PO_DATE","Caption","PO Date")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","ORIG_DUE_DATE","Caption","Original Due Date")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DATE_DUE_LINE","Caption","Due Date")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_ORDER","Caption","Order Qty")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECEIVED","Caption","Qty Received")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_OPEN","Caption","Qty Open")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECD_NOT_INSP","Caption","Qty In Insp.")</string>
+        <string>	F.Intrinsic.String.Build("Cost ({0})",V.Company.CurrencySymbol,V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","COST","Caption",V.Local.sCaption)</string>
+        <string>	F.Intrinsic.String.Build("Extension ({0})",V.Company.CurrencySymbol,V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","EXTENSION","Caption",V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","JOB","Caption","Job")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SUFFIX","Caption","Suffix")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SHIP_VIA","Caption","Ship Via")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BLANKET_PO","Caption","Blanket PO")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","TYPE","Caption","Type")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NOTES","Caption","Notes ")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","USER_5","Caption","User Field 5 (30 Characters)")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","Conf","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","MinWidth","25")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NAME_VENDOR","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PART","MinWidth","130")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","LOCATION","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DESCRIPTION","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PRODUCT_LINE","MinWidth","30")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BUYER","MinWidth","50")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PO_DATE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","ORIG_DUE_DATE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DATE_DUE_LINE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_ORDER","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECEIVED","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_OPEN","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECD_NOT_INSP","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","COST","MinWidth","95")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","EXTENSION","MinWidth","105")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","JOB","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SUFFIX","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SHIP_VIA","MinWidth","125")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BLANKET_PO","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","TYPE","MinWidth","55")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NOTES","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","USER_5","MinWidth","200")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NAME_VENDOR","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PART","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","LOCATION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DESCRIPTION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PRODUCT_LINE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BUYER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PO_DATE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","ORIG_DUE_DATE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DATE_DUE_LINE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_ORDER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECEIVED","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_OPEN","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECD_NOT_INSP","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","COST","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","EXTENSION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","JOB","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SUFFIX","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SHIP_VIA","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BLANKET_PO","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","TYPE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NOTES","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","USER_5","HeaderFontBold",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NAME_VENDOR","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PART","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","LOCATION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DESCRIPTION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PRODUCT_LINE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BUYER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PO_DATE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","ORIG_DUE_DATE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DATE_DUE_LINE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_ORDER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECEIVED","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_OPEN","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECD_NOT_INSP","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","COST","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","EXTENSION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","JOB","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SUFFIX","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SHIP_VIA","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BLANKET_PO","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","TYPE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NOTES","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","USER_5","HeaderHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","LOCATION","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PRODUCT_LINE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BUYER","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PO_DATE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","ORIG_DUE_DATE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DATE_DUE_LINE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","JOB","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SUFFIX","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SHIP_VIA","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BLANKET_PO","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","TYPE","CellHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","Fixed","Left")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","Fixed","Left")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","Fixed","Left")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NAME_VENDOR","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PART","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","LOCATION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DESCRIPTION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PRODUCT_LINE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BUYER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PO_DATE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","ORIG_DUE_DATE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DATE_DUE_LINE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_ORDER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECEIVED","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_OPEN","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","QTY_RECD_NOT_INSP","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","COST","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","EXTENSION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","JOB","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SUFFIX","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","SHIP_VIA","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","BLANKET_PO","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","TYPE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NOTES","AllowEdit",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","USER_5","AllowEdit",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NOTES","ReadOnly",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","USER_5","ReadOnly",False)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PURCHASE_ORDER","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","RECORD_NO","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PART","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","LOCATION","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DESCRIPTION","CellForeColor","Blue")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","NOTES","CellBackColor","LightYellow")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","USER_5","CellBackColor","LightYellow")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","PO_DATE","DisplayCustomDatetime","d")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","ORIG_DUE_DATE","DisplayCustomDatetime","d")</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","DATE_DUE_LINE","DisplayCustomDatetime","d")</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Screen.FrmPO!optEdit.Value)</string>
+        <string>		Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","AllowEdit",True)</string>
+        <string>		Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","ReadOnly",False)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","AllowEdit",False)</string>
+        <string>		Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","ReadOnly",True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.ResumeLayout()</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDvGvAllPOs.End</string>
+        <string />
+        <string>Program.Sub.LoadDTExpToday.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sFilter.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.IF(V.DataTable.dtExpToday.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("dtExpToday")</string>
+        <string>		Gui.FrmPO.GsGCExpToday.ClearGrouping("gvExpToday")</string>
+        <string>	F.Intrinsic.Control.EndIF</string>
+        <string />
+        <string>	F.Intrinsic.String.Build("DATE_DUE_LINE = #{0}#",V.Ambient.Date,V.Local.sFilter)</string>
+        <string>	F.Data.DataView.Create("dtAllPOs","dvExpToday",22,V.Local.sFilter,"")</string>
+        <string>	F.Data.DataView.ToDataTable("dtAllPOs","dvExpToday","dtExpToday",True)</string>
+        <string />
+        <string>	F.Intrinsic.Control.CallSub(loaddvgvexptoday)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDTExpToday.End</string>
+        <string />
+        <string>Program.Sub.LoadDvGvExpToday.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sCaption.Declare</string>
+        <string />
+        <string>	'Create GridView from DataView</string>
+        <string>	Gui.FrmPO.GsGCExpToday.AddGridviewFromDatatable("gvExpToday","dtExpToday")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.MainView("gvExpToday")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SuspendLayout()</string>
+        <string>	'Set Grid Propertites</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetGridViewProperty("gvExpToday","MultiSelect",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetGridViewProperty("gvExpToday","AllowSort",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetGridViewProperty("gvExpToday","AllowFilter",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetGridViewProperty("gvExpToday","OptionsDetailShowDetailTabs",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetGridViewProperty("gvExpToday","OptionsViewShowGroupPanel",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetGridViewProperty("gvExpToday","EnableAppearanceOddRow",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","Caption","Confirmation")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","Caption","PO #")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","Caption","Ln")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NAME_VENDOR","Caption","Vendor Name")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PART","Caption","Part Number")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","LOCATION","Caption","Loc")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DESCRIPTION","Caption","Part Description")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PRODUCT_LINE","Caption","PL")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BUYER","Caption","Buyer")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PO_DATE","Caption","PO Date")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","ORIG_DUE_DATE","Caption","Original Due Date")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DATE_DUE_LINE","Caption","Due Date")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_ORDER","Caption","Order Qty")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECEIVED","Caption","Qty Received")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_OPEN","Caption","Qty Open")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECD_NOT_INSP","Caption","Qty In Insp.")</string>
+        <string>	F.Intrinsic.String.Build("Cost ({0})",V.Company.CurrencySymbol,V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","COST","Caption",V.Local.sCaption)</string>
+        <string>	F.Intrinsic.String.Build("Extension ({0})",V.Company.CurrencySymbol,V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","EXTENSION","Caption",V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","JOB","Caption","Job")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SUFFIX","Caption","Suffix")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SHIP_VIA","Caption","Ship Via")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BLANKET_PO","Caption","Blanket PO")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","TYPE","Caption","Type")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NOTES","Caption","Notes ")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","USER_5","Caption","User Field 5 (30 Characters)")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","Conf","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","MinWidth","25")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NAME_VENDOR","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PART","MinWidth","130")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","LOCATION","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DESCRIPTION","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PRODUCT_LINE","MinWidth","30")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BUYER","MinWidth","50")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PO_DATE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","ORIG_DUE_DATE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DATE_DUE_LINE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_ORDER","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECEIVED","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_OPEN","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECD_NOT_INSP","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","COST","MinWidth","95")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","EXTENSION","MinWidth","105")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","JOB","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SUFFIX","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SHIP_VIA","MinWidth","125")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BLANKET_PO","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","TYPE","MinWidth","55")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NOTES","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","USER_5","MinWidth","200")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NAME_VENDOR","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PART","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","LOCATION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DESCRIPTION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PRODUCT_LINE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BUYER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PO_DATE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","ORIG_DUE_DATE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DATE_DUE_LINE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_ORDER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECEIVED","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_OPEN","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECD_NOT_INSP","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","COST","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","EXTENSION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","JOB","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SUFFIX","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SHIP_VIA","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BLANKET_PO","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","TYPE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NOTES","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","USER_5","HeaderFontBold",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NAME_VENDOR","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PART","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","LOCATION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DESCRIPTION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PRODUCT_LINE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BUYER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PO_DATE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","ORIG_DUE_DATE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DATE_DUE_LINE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_ORDER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECEIVED","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_OPEN","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECD_NOT_INSP","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","COST","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","EXTENSION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","JOB","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SUFFIX","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SHIP_VIA","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BLANKET_PO","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","TYPE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NOTES","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","USER_5","HeaderHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","LOCATION","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PRODUCT_LINE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BUYER","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PO_DATE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","ORIG_DUE_DATE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DATE_DUE_LINE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","JOB","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SUFFIX","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SHIP_VIA","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BLANKET_PO","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","TYPE","CellHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","Fixed","Left")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","Fixed","Left")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","Fixed","Left")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NAME_VENDOR","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PART","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","LOCATION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DESCRIPTION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PRODUCT_LINE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BUYER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PO_DATE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","ORIG_DUE_DATE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DATE_DUE_LINE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_ORDER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECEIVED","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_OPEN","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","QTY_RECD_NOT_INSP","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","COST","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","EXTENSION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","JOB","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SUFFIX","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","SHIP_VIA","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","BLANKET_PO","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","TYPE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NOTES","AllowEdit",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","USER_5","AllowEdit",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NOTES","ReadOnly",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","USER_5","ReadOnly",False)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PURCHASE_ORDER","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","RECORD_NO","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PART","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","LOCATION","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DESCRIPTION","CellForeColor","Blue")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","NOTES","CellBackColor","LightYellow")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","USER_5","CellBackColor","LightYellow")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","PO_DATE","DisplayCustomDatetime","d")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","DATE_DUE_LINE","DisplayCustomDatetime","d")</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","ORIG_DUE_DATE","DisplayCustomDatetime","d")</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Screen.FrmPO!optEdit.Value)</string>
+        <string>		Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","AllowEdit",True)</string>
+        <string>		Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","ReadOnly",False)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","AllowEdit",False)</string>
+        <string>		Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","ReadOnly",True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.ResumeLayout()</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDvGvExpToday.End</string>
+        <string />
+        <string>Program.Sub.LoadDTPastDue.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sFilter.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.IF(V.DataTable.dtPastDue.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("dtPastDue")</string>
+        <string>		Gui.FrmPO.GsGCPastDue.ClearGrouping("gvPastDue")</string>
+        <string>	F.Intrinsic.Control.EndIF</string>
+        <string />
+        <string>	F.Intrinsic.String.Build("DATE_DUE_LINE &lt; #{0}#",V.Ambient.Date,V.Local.sFilter)</string>
+        <string>	F.Data.DataView.Create("dtAllPOs","dvPastDue",22,V.Local.sFilter,"")</string>
+        <string>	F.Data.DataView.ToDataTable("dtAllPOs","dvPastDue","dtPastDue",True)</string>
+        <string />
+        <string>	F.Intrinsic.Control.CallSub(loaddvgvpastdue)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDTPastDue.End</string>
+        <string />
+        <string>Program.Sub.LoadDvGvPastDue.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sCaption.Declare</string>
+        <string />
+        <string>	'Create GridView from DataView</string>
+        <string>	Gui.FrmPO.GsGCPastDue.AddGridviewFromDatatable("gvPastDue","dtPastDue")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.MainView("gvPastDue")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SuspendLayout()</string>
+        <string>	'Set Grid Propertites</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetGridViewProperty("gvPastDue","MultiSelect",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetGridViewProperty("gvPastDue","AllowSort",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetGridViewProperty("gvPastDue","AllowFilter",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetGridViewProperty("gvPastDue","OptionsDetailShowDetailTabs",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetGridViewProperty("gvPastDue","OptionsViewShowGroupPanel",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetGridViewProperty("gvPastDue","EnableAppearanceOddRow",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","Caption","Confirmation")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","Caption","PO #")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","Caption","Ln")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NAME_VENDOR","Caption","Vendor Name")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PART","Caption","Part Number")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","LOCATION","Caption","Loc")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DESCRIPTION","Caption","Part Description")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PRODUCT_LINE","Caption","PL")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BUYER","Caption","Buyer")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PO_DATE","Caption","PO Date")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DATE_DUE_LINE","Caption","Due Date")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","ORIG_DUE_DATE","Caption","Original Due Date")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_ORDER","Caption","Order Qty")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECEIVED","Caption","Qty Received")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_OPEN","Caption","Qty Open")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECD_NOT_INSP","Caption","Qty In Insp.")</string>
+        <string>	F.Intrinsic.String.Build("Cost ({0})",V.Company.CurrencySymbol,V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","COST","Caption",V.Local.sCaption)</string>
+        <string>	F.Intrinsic.String.Build("Extension ({0})",V.Company.CurrencySymbol,V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","EXTENSION","Caption",V.Local.sCaption)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","JOB","Caption","Job")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SUFFIX","Caption","Suffix")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SHIP_VIA","Caption","Ship Via")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BLANKET_PO","Caption","Blanket PO")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","TYPE","Caption","Type")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NOTES","Caption","Notes ")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","USER_5","Caption","User Field 5 (30 Characters)")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","Conf","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","MinWidth","25")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NAME_VENDOR","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PART","MinWidth","130")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","LOCATION","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DESCRIPTION","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PRODUCT_LINE","MinWidth","30")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BUYER","MinWidth","50")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PO_DATE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DATE_DUE_LINE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","ORIG_DUE_DATE","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_ORDER","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECEIVED","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_OPEN","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECD_NOT_INSP","MinWidth","85")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","COST","MinWidth","95")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","EXTENSION","MinWidth","105")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","JOB","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SUFFIX","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SHIP_VIA","MinWidth","125")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BLANKET_PO","MinWidth","75")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","TYPE","MinWidth","55")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NOTES","MinWidth","200")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","USER_5","MinWidth","200")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NAME_VENDOR","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PART","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","LOCATION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DESCRIPTION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PRODUCT_LINE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BUYER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PO_DATE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DATE_DUE_LINE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","ORIG_DUE_DATE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_ORDER","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECEIVED","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_OPEN","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECD_NOT_INSP","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","COST","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","EXTENSION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","JOB","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SUFFIX","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SHIP_VIA","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BLANKET_PO","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","TYPE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NOTES","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","USER_5","HeaderFontBold",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NAME_VENDOR","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PART","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","LOCATION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DESCRIPTION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PRODUCT_LINE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BUYER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PO_DATE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DATE_DUE_LINE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","ORIG_DUE_DATE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_ORDER","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECEIVED","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_OPEN","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECD_NOT_INSP","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","COST","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","EXTENSION","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","JOB","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SUFFIX","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SHIP_VIA","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BLANKET_PO","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","TYPE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NOTES","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","USER_5","HeaderHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","LOCATION","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PRODUCT_LINE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BUYER","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PO_DATE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DATE_DUE_LINE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","ORIG_DUE_DATE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","JOB","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SUFFIX","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SHIP_VIA","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BLANKET_PO","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","TYPE","CellHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","Fixed","Left")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","Fixed","Left")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","Fixed","Left")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NAME_VENDOR","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PART","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","LOCATION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DESCRIPTION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PRODUCT_LINE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BUYER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PO_DATE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DATE_DUE_LINE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","ORIG_DUE_DATE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_ORDER","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECEIVED","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_OPEN","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","QTY_RECD_NOT_INSP","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","COST","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","EXTENSION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","JOB","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SUFFIX","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","SHIP_VIA","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","BLANKET_PO","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","TYPE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NOTES","AllowEdit",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","USER_5","AllowEdit",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NOTES","ReadOnly",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","USER_5","ReadOnly",False)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PURCHASE_ORDER","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","RECORD_NO","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PART","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","LOCATION","CellForeColor","Blue")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DESCRIPTION","CellForeColor","Blue")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","NOTES","CellBackColor","LightYellow")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","USER_5","CellBackColor","LightYellow")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","PO_DATE","DisplayCustomDatetime","d")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","DATE_DUE_LINE","DisplayCustomDatetime","d")</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","ORIG_DUE_DATE","DisplayCustomDatetime","d")</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Screen.FrmPO!optEdit.Value)</string>
+        <string>		Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","AllowEdit",True)</string>
+        <string>		Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","ReadOnly",False)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","AllowEdit",False)</string>
+        <string>		Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","ReadOnly",True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.ResumeLayout()</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDvGvPastDue.End</string>
+        <string />
+        <string>Program.Sub.GsGCAllPOs_RowCellClick.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sPO.Declare</string>
+        <string>	V.Local.sPart.Declare</string>
+        <string>	V.Local.sLoc.Declare</string>
+        <string>	V.Local.sParams.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(v.Args.Column)</string>
+        <string>		F.Intrinsic.Control.CaseAny("PURCHASE_ORDER","RECORD_NO")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.FrmPO!optView.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Concat("V!*!",V.Local.sPO,"!*!",V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(175200,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.ElseIf(V.Screen.FrmPO!optEdit.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Concat("O!*!",V.Local.sPO,"!*!",V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(175200,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Global.General.CallWrapperSync(3200,V.Local.sPO)</string>
+        <string>				F.Intrinsic.Control.CallSub(printaudit)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.CaseAny("PART","LOCATION")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PART",V.Args.RowIndex,V.Local.sPart)</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","LOCATION",V.Args.RowIndex,V.Local.sLoc)</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.FrmPO!optView.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}!*!{1}!*!M",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case("DESCRIPTION")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PART",V.Args.RowIndex,V.Local.sPart)</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","LOCATION",V.Args.RowIndex,V.Local.sLoc)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!MR",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>			F.Global.General.CallWrapperASync(7200,V.Local.sParams)</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.GsGCAllPOs_RowCellClick.End</string>
+        <string />
+        <string>Program.Sub.GsGCExpToday_RowCellClick.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sPO.Declare</string>
+        <string>	V.Local.sPart.Declare</string>
+        <string>	V.Local.sLoc.Declare</string>
+        <string>	V.Local.sParams.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(v.Args.Column)</string>
+        <string>		F.Intrinsic.Control.CaseAny("PURCHASE_ORDER","RECORD_NO")</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.FrmPO!optView.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Concat("V!*!",V.Local.sPO,"!*!",V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(175200,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.ElseIf(V.Screen.FrmPO!optEdit.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Concat("O!*!",V.Local.sPO,"!*!",V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(175200,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Global.General.CallWrapperASync(3200,V.Local.sPO)</string>
+        <string>				F.Intrinsic.Control.CallSub(printaudit)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.CaseAny("PART","LOCATION")</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PART",V.Args.RowIndex,V.Local.sPart)</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","LOCATION",V.Args.RowIndex,V.Local.sLoc)</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.FrmPO!optView.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}!*!{1}!*!M",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case("DESCRIPTION")</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PART",V.Args.RowIndex,V.Local.sPart)</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","LOCATION",V.Args.RowIndex,V.Local.sLoc)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!MR",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>			F.Global.General.CallWrapperASync(7200,V.Local.sParams)</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.GsGCExpToday_RowCellClick.End</string>
+        <string />
+        <string>Program.Sub.GsGCPastDue_RowCellClick.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sPO.Declare</string>
+        <string>	V.Local.sPart.Declare</string>
+        <string>	V.Local.sLoc.Declare</string>
+        <string>	V.Local.sParams.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(v.Args.Column)</string>
+        <string>		F.Intrinsic.Control.CaseAny("PURCHASE_ORDER","RECORD_NO")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.FrmPO!optView.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Concat("V!*!",V.Local.sPO,"!*!",V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(175200,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.ElseIf(V.Screen.FrmPO!optEdit.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Concat("O!*!",V.Local.sPO,"!*!",V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(175200,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Global.General.CallWrapperASync(3200,V.Local.sPO)</string>
+        <string>				F.Intrinsic.Control.CallSub(printaudit)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.CaseAny("PART","LOCATION")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PART",V.Args.RowIndex,V.Local.sPart)</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","LOCATION",V.Args.RowIndex,V.Local.sLoc)</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.FrmPO!optView.Value,=,True)</string>
+        <string>				F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}!*!{1}!*!M",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>				F.Global.General.CallWrapperASync(300011,V.Local.sParams)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case("DESCRIPTION")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PART",V.Args.RowIndex,V.Local.sPart)</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","LOCATION",V.Args.RowIndex,V.Local.sLoc)</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!MR",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>			F.Global.General.CallWrapperASync(7200,V.Local.sParams)</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.GsGCPastDue_RowCellClick.End</string>
+        <string />
+        <string>Program.Sub.SetAnchors.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	'Anchor Values</string>
+        <string>	'0 - None</string>
+        <string>	'1 - Top</string>
+        <string>	'2 - Bottom</string>
+        <string>	'4 - Left</string>
+        <string>	'8 - Right</string>
+        <string />
+        <string>	Gui.FrmPO.picGSSLogo.Anchor(1)</string>
+        <string>	Gui.FrmPO.frameButtons.Anchor(9)</string>
+        <string>	Gui.FrmPO.framePermissions.Anchor(9)</string>
+        <string>	Gui.FrmPO.tabPODash.Anchor(15)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.Anchor(15)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.Anchor(15)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.Anchor(15)</string>
+        <string>	Gui.FrmPO.GsGCOSV.Anchor(15)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.SetAnchors.End</string>
+        <string />
+        <string>Program.Sub.FrmPO_UnLoad.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Global.bLoadData)</string>
+        <string>		F.Intrinsic.Control.CallSub(Serialize)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.ODBC.Connection!con.Close</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.FrmPO_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.ControlsDisabled.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.FrmPO.frameButtons.Enabled(False)</string>
+        <string>	Gui.FrmPO.framePermissions.Enabled(False)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.ControlsDisabled.End</string>
+        <string />
+        <string>Program.Sub.ControlsEnabled.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.FrmPO.frameButtons.Enabled(True)</string>
+        <string>	Gui.FrmPO.framePermissions.Enabled(True)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.ControlsEnabled.End</string>
+        <string />
+        <string>Program.Sub.CallSubs.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.FrmPO.lbl1.Visible(True)</string>
+        <string>	Gui.FrmPO.progressBar1.Visible(True)</string>
+        <string>	Gui.FrmPO.lbl1.Caption("Loading Purchase Orders....")</string>
+        <string>	Gui.FrmPO.progressBar1.Min(0)</string>
+        <string>	Gui.FrmPO.progressBar1.Max(100)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtallpos)</string>
+        <string>	Gui.FrmPO.progressBar1.Value(30)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtexptoday)</string>
+        <string>	Gui.FrmPO.progressBar1.Value(60)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtpastdue)</string>
+        <string>	Gui.FrmPO.progressBar1.Value(90)</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddtosv)</string>
+        <string>	Gui.FrmPO.progressBar1.Value(100)</string>
+        <string>	Gui.FrmPO.lbl1.Visible(False)</string>
+        <string>	Gui.FrmPO.progressBar1.Value(0)</string>
+        <string>	Gui.FrmPO.progressBar1.Visible(False)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.CallSubs.End</string>
+        <string />
+        <string>Program.Sub.GsGCAllPOs_CellValueChanged.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sSQL.Declare</string>
+        <string>	V.Local.sPO.Declare</string>
+        <string>	V.Local.sPO2.Declare</string>
+        <string>	V.Local.bConf.Declare</string>
+        <string>	V.Local.bConf2.Declare</string>
+        <string>	V.Local.iRows.Declare</string>
+        <string>	V.Local.iCnt.Declare</string>
+        <string>	V.Local.sPOLine.Declare</string>
+        <string>	V.Local.sLine.Declare</string>
+        <string>	V.Local.sParams.Declare</string>
+        <string>	V.Local.sText.Declare</string>
+        <string>	V.Local.sTextTbl.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Screen.FrmPO!optEdit.Value,=,True)</string>
+        <string>		F.Intrinsic.Control.If(V.Args.Column,=,"CONF")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","CONF",V.Args.RowIndex,V.Local.bConf)</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			F.Intrinsic.String.Concat("SELECT * FROM GCG_4559_PO_CONFCHK WHERE PURCHASE_ORDER='",V.Local.sPO,"'",V.Local.sSql)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstSave",V.Local.sSql)</string>
+        <string>				F.Intrinsic.Control.If(V.ODBC.con!rstSave.EOF,=,True)</string>
+        <string>					F.ODBC.con!rstSave.AddNew</string>
+        <string>					F.ODBC.con!rstSave.Set!PURCHASE_ORDER(V.Local.sPO)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				Function.Intrinsic.Control.If(V.Local.bConf,=,False)</string>
+        <string>					F.ODBC.con!rstSave.Set!CONF("1")</string>
+        <string>					V.Local.bConf2.Set(True)</string>
+        <string>				Function.Intrinsic.Control.Else</string>
+        <string>					F.ODBC.con!rstSave.Set!CONF("0")</string>
+        <string>					V.Local.bConf2.Set(False)</string>
+        <string>				Function.Intrinsic.Control.EndIf</string>
+        <string>				F.ODBC.con!rstSave.Set!GS_USER(V.Caller.User)</string>
+        <string>				F.ODBC.con!rstSave.Set!DATE_CONF(V.Ambient.Date)</string>
+        <string>				F.ODBC.con!rstSave.Update</string>
+        <string>			F.ODBC.con!rstSave.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checkpoconf,"PO",V.Local.sPO,"Conf",V.Local.bConf2)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(V.Args.column)</string>
+        <string>		F.Intrinsic.Control.Case("NOTES")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","RECORD_NO",V.Args.RowIndex,V.Local.sLine)</string>
+        <string>			F.Intrinsic.String.Replace(V.Args.Value,"'","''",V.Local.sTextTbl)</string>
+        <string>			F.Intrinsic.String.Build("SELECT * FROM GCG_4559_PO_NOTES WHERE PO = '{0}' AND POLINE = '{1}';",V.Local.sPO,V.Local.sLine,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>				F.Intrinsic.String.Build("INSERT INTO GCG_4559_PO_NOTES(PO,POLINE,NOTES) VALUES('{0}','{1}','{2}');",V.Local.sPO,V.Local.sLine,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("UPDATE GCG_4559_PO_NOTES SET NOTES = '{0}' WHERE PO = '{1}' AND POLINE = '{2}';",V.Local.sTextTbl,V.Local.sPO,V.Local.sLine,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			F.ODBC.con!rstNotes.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checknote,"PO",V.Local.sPO,"Line",V.Local.sLine,"Note",V.Args.Value,"GV","gvAllPOs","PO_Note","NOTES")</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case("USER_5")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","RECORD_NO",V.Args.RowIndex,V.Local.sLine)</string>
+        <string>			F.Intrinsic.String.RPad(V.Local.sLine,"0",4,V.Local.sPOLine)</string>
+        <string>			F.Intrinsic.String.Left(V.Args.Value,30,V.Local.sText)</string>
+        <string>			F.Intrinsic.String.Replace(V.Local.sText,"'","''",V.Local.sTextTbl)</string>
+        <string>			F.Intrinsic.String.Build("SELECT * FROM V_PO_LINES WHERE PURCHASE_ORDER = '{0}' AND RECORD_NO = '{1}';",V.Local.sPO,V.Local.sPOLine,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>				F.Intrinsic.String.Build("INSERT INTO PO_LINES(PURCHASE_ORDER,RECORD_NO,USER_5) VALUES('{0}','{1}','{2}');",V.Local.sPO,V.Local.sPOLine,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("UPDATE PO_LINES SET USER_5 = '{0}' WHERE PURCHASE_ORDER = '{1}' AND RECORD_NO = '{2}';",V.Local.sTextTbl,V.Local.sPO,V.Local.sPOLine,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			F.ODBC.con!rstNotes.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checknote,"PO",V.Local.sPO,"Line",V.Local.sLine,"Note",V.Local.sText,"GV","gvAllPOs","PO_Note","USER_5")</string>
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.GsGCAllPOs_CellValueChanged.End</string>
+        <string />
+        <string>Program.Sub.GsGCExpToday_CellValueChanged.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sSQL.Declare</string>
+        <string>	V.Local.sPO.Declare</string>
+        <string>	V.Local.sPO2.Declare</string>
+        <string>	V.Local.bConf.Declare</string>
+        <string>	V.Local.bConf2.Declare</string>
+        <string>	V.Local.iRows.Declare</string>
+        <string>	V.Local.iCnt.Declare</string>
+        <string>	V.Local.sPOLine.Declare</string>
+        <string>	V.Local.sLine.Declare</string>
+        <string>	V.Local.sParams.Declare</string>
+        <string>	V.Local.sText.Declare</string>
+        <string>	V.Local.sTextTbl.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Screen.FrmPO!optEdit.Value,=,True)</string>
+        <string>		F.Intrinsic.Control.If(V.Args.Column,=,"CONF")</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","CONF",V.Args.RowIndex,V.Local.bConf)</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			F.Intrinsic.String.Concat("SELECT * FROM GCG_4559_PO_CONFCHK WHERE PURCHASE_ORDER='",V.Local.sPO,"'",V.Local.sSql)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstSave",V.Local.sSql)</string>
+        <string>				F.Intrinsic.Control.If(V.ODBC.con!rstSave.EOF,=,True)</string>
+        <string>					F.ODBC.con!rstSave.AddNew</string>
+        <string>					F.ODBC.con!rstSave.Set!PURCHASE_ORDER(V.Local.sPO)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				Function.Intrinsic.Control.If(V.Local.bConf,=,False)</string>
+        <string>					F.ODBC.con!rstSave.Set!CONF("1")</string>
+        <string>					V.Local.bConf2.Set(True)</string>
+        <string>				Function.Intrinsic.Control.Else</string>
+        <string>					F.ODBC.con!rstSave.Set!CONF("0")</string>
+        <string>					V.Local.bConf2.Set(False)</string>
+        <string>				Function.Intrinsic.Control.EndIf</string>
+        <string>				F.ODBC.con!rstSave.Set!GS_USER(V.Caller.User)</string>
+        <string>				F.ODBC.con!rstSave.Set!DATE_CONF(V.Ambient.Date)</string>
+        <string>				F.ODBC.con!rstSave.Update</string>
+        <string>			F.ODBC.con!rstSave.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checkpoconf,"PO",V.Local.sPO,"Conf",V.Local.bConf2)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(V.Args.column)</string>
+        <string>		F.Intrinsic.Control.Case("NOTES")</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","RECORD_NO",V.Args.RowIndex,V.Local.sLine)</string>
+        <string>			F.Intrinsic.String.Replace(V.Args.Value,"'","''",V.Local.sTextTbl)</string>
+        <string>			F.Intrinsic.String.Build("SELECT * FROM GCG_4559_PO_NOTES WHERE PO = '{0}' AND POLINE = '{1}';",V.Local.sPO,V.Local.sLine,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>				F.Intrinsic.String.Build("INSERT INTO GCG_4559_PO_NOTES(PO,POLINE,NOTES) VALUES('{0}','{1}','{2}');",V.Local.sPO,V.Local.sLine,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("UPDATE GCG_4559_PO_NOTES SET NOTES = '{0}' WHERE PO = '{1}' AND POLINE = '{2}';",V.Local.sTextTbl,V.Local.sPO,V.Local.sLine,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			F.ODBC.con!rstNotes.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checknote,"PO",V.Local.sPO,"Line",V.Local.sLine,"Note",V.Args.Value,"GV","gvExpToday","PO_Note","NOTES")</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case("USER_5")</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","RECORD_NO",V.Args.RowIndex,V.Local.sLine)</string>
+        <string>			F.Intrinsic.String.RPad(V.Local.sLine,"0",4,V.Local.sPOLine)</string>
+        <string>			F.Intrinsic.String.Left(V.Args.Value,30,V.Local.sText)</string>
+        <string>			F.Intrinsic.String.Replace(V.Local.sText,"'","''",V.Local.sTextTbl)</string>
+        <string>			F.Intrinsic.String.Build("SELECT * FROM V_PO_LINES WHERE PURCHASE_ORDER = '{0}' AND RECORD_NO = '{1}';",V.Local.sPO,V.Local.sPOLine,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>				F.Intrinsic.String.Build("INSERT INTO PO_LINES(PURCHASE_ORDER,RECORD_NO,USER_5) VALUES('{0}','{1}','{2}');",V.Local.sPO,V.Local.sPOLine,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("UPDATE PO_LINES SET USER_5 = '{0}' WHERE PURCHASE_ORDER = '{1}' AND RECORD_NO = '{2}';",V.Local.sTextTbl,V.Local.sPO,V.Local.sPOLine,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			F.ODBC.con!rstNotes.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checknote,"PO",V.Local.sPO,"Line",V.Local.sLine,"Note",V.Local.sText,"GV","gvExpToday","PO_Note","USER_5")</string>
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.GsGCExpToday_CellValueChanged.End</string>
+        <string />
+        <string>Program.Sub.GsGCPastDue_CellValueChanged.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sSQL.Declare</string>
+        <string>	V.Local.sPO.Declare</string>
+        <string>	V.Local.sPO2.Declare</string>
+        <string>	V.Local.bConf.Declare</string>
+        <string>	V.Local.bConf2.Declare</string>
+        <string>	V.Local.iRows.Declare</string>
+        <string>	V.Local.iCnt.Declare</string>
+        <string>	V.Local.sPOLine.Declare</string>
+        <string>	V.Local.sLine.Declare</string>
+        <string>	V.Local.sParams.Declare</string>
+        <string>	V.Local.sText.Declare</string>
+        <string>	V.Local.sTextTbl.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Screen.FrmPO!optEdit.Value,=,True)</string>
+        <string>		F.Intrinsic.Control.If(V.Args.Column,=,"CONF")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","CONF",V.Args.RowIndex,V.Local.bConf)</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			F.Intrinsic.String.Concat("SELECT * FROM GCG_4559_PO_CONFCHK WHERE PURCHASE_ORDER='",V.Local.sPO,"'",V.Local.sSql)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstSave",V.Local.sSql)</string>
+        <string>				F.Intrinsic.Control.If(V.ODBC.con!rstSave.EOF,=,True)</string>
+        <string>					F.ODBC.con!rstSave.AddNew</string>
+        <string>					F.ODBC.con!rstSave.Set!PURCHASE_ORDER(V.Local.sPO)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				Function.Intrinsic.Control.If(V.Local.bConf,=,False)</string>
+        <string>					F.ODBC.con!rstSave.Set!CONF("1")</string>
+        <string>					V.Local.bConf2.Set(True)</string>
+        <string>				Function.Intrinsic.Control.Else</string>
+        <string>					F.ODBC.con!rstSave.Set!CONF("0")</string>
+        <string>					V.Local.bConf2.Set(False)</string>
+        <string>				Function.Intrinsic.Control.EndIf</string>
+        <string>				F.ODBC.con!rstSave.Set!GS_USER(V.Caller.User)</string>
+        <string>				F.ODBC.con!rstSave.Set!DATE_CONF(V.Ambient.Date)</string>
+        <string>				F.ODBC.con!rstSave.Update</string>
+        <string>			F.ODBC.con!rstSave.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checkpoconf,"PO",V.Local.sPO,"Conf",V.Local.bConf2)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(V.Args.column)</string>
+        <string>		F.Intrinsic.Control.Case("NOTES")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","RECORD_NO",V.Args.RowIndex,V.Local.sLine)</string>
+        <string>			F.Intrinsic.String.Replace(V.Args.Value,"'","''",V.Local.sTextTbl)</string>
+        <string>			F.Intrinsic.String.Build("SELECT * FROM GCG_4559_PO_NOTES WHERE PO = '{0}' AND POLINE = '{1}';",V.Local.sPO,V.Local.sLine,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>				F.Intrinsic.String.Build("INSERT INTO GCG_4559_PO_NOTES(PO,POLINE,NOTES) VALUES('{0}','{1}','{2}');",V.Local.sPO,V.Local.sLine,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("UPDATE GCG_4559_PO_NOTES SET NOTES = '{0}' WHERE PO = '{1}' AND POLINE = '{2}';",V.Local.sTextTbl,V.Local.sPO,V.Local.sLine,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			F.ODBC.con!rstNotes.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checknote,"PO",V.Local.sPO,"Line",V.Local.sLine,"Note",V.Args.Value,"GV","gvPastDue","PO_Note","NOTES")</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case("USER_5")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Args.RowIndex,V.Local.sPO)</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","RECORD_NO",V.Args.RowIndex,V.Local.sLine)</string>
+        <string>			F.Intrinsic.String.RPad(V.Local.sLine,"0",4,V.Local.sPOLine)</string>
+        <string>			F.Intrinsic.String.Left(V.Args.Value,30,V.Local.sText)</string>
+        <string>			F.Intrinsic.String.Replace(V.Local.sText,"'","''",V.Local.sTextTbl)</string>
+        <string>			F.Intrinsic.String.Build("SELECT * FROM V_PO_LINES WHERE PURCHASE_ORDER = '{0}' AND RECORD_NO = '{1}';",V.Local.sPO,V.Local.sPOLine,V.Local.sSQL)</string>
+        <string>			F.ODBC.Connection!con.OpenRecordsetRW("rstNotes",V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.If(V.ODBC.con!rstNotes.EOF,=,True)</string>
+        <string>				F.Intrinsic.String.Build("INSERT INTO PO_LINES(PURCHASE_ORDER,RECORD_NO,USER_5) VALUES('{0}','{1}','{2}');",V.Local.sPO,V.Local.sPOLine,V.Local.sTextTbl,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("UPDATE PO_LINES SET USER_5 = '{0}' WHERE PURCHASE_ORDER = '{1}' AND RECORD_NO = '{2}';",V.Local.sTextTbl,V.Local.sPO,V.Local.sPOLine,V.Local.sSQL)</string>
+        <string>				F.ODBC.Connection!con.Execute(V.Local.sSQL)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			F.ODBC.con!rstNotes.Close</string>
+        <string>			F.Intrinsic.Control.CallSub(checknote,"PO",V.Local.sPO,"Line",V.Local.sLine,"Note",V.Local.sText,"GV","gvPastDue","PO_Note","USER_5")</string>
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.GsGCPastDue_CellValueChanged.End</string>
+        <string />
+        <string>Program.Sub.optView_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","ReadOnly",True)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.optView_Click.End</string>
+        <string />
+        <string>Program.Sub.optEdit_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","AllowEdit",True)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","ReadOnly",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","AllowEdit",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","ReadOnly",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","AllowEdit",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","ReadOnly",False)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.optEdit_Click.End</string>
+        <string />
+        <string>Program.Sub.optRecv_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.SetColumnProperty("gvAllPOs","CONF","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCExpToday.SetColumnProperty("gvExpToday","CONF","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCPastDue.SetColumnProperty("gvPastDue","CONF","ReadOnly",True)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.optRecv_Click.End</string>
+        <string />
+        <string>Program.Sub.CheckPOConf.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sPO2.Declare</string>
+        <string>	V.Local.iRows.Declare</string>
+        <string>	V.Local.iCnt.Declare</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCAllPOs.GetRowCount("gvAllPOs",V.Local.iRows)</string>
+        <string>	F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>	F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>		Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO2)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sPO2,=,V.Args.PO)</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.SetCellValueByColumnName("gvAllPOs","CONF",V.Local.iCnt,V.Args.Conf)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCExpToday.GetRowCount("gvExpToday",V.Local.iRows)</string>
+        <string>	F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>	F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>		Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO2)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sPO2,=,V.Args.PO)</string>
+        <string>			Gui.FrmPO.GsGCExpToday.SetCellValueByColumnName("gvExpToday","CONF",V.Local.iCnt,V.Args.Conf)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCPastDue.GetRowCount("gvPastDue",V.Local.iRows)</string>
+        <string>	F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>	F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>		Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO2)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sPO2,=,V.Args.PO)</string>
+        <string>			Gui.FrmPO.GsGCPastDue.SetCellValueByColumnName("gvPastDue","CONF",V.Local.iCnt,V.Args.Conf)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.CheckPOConf.End</string>
+        <string />
+        <string>Program.Sub.CheckNote.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sPO.Declare</string>
+        <string>	V.Local.sLine.Declare</string>
+        <string>	V.Local.iRows.Declare</string>
+        <string>	V.Local.iCnt.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Args.PO_Note,=,"NOTES")</string>
+        <string>		F.Intrinsic.Control.If(V.Args.GV,=,"gvAllPOs")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetRowCount("gvPastDue",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCPastDue.SetCellValueByColumnName("gvPastDue","NOTES",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>			Gui.FrmPO.GsGCExpToday.GetRowCount("gvExpToday",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCExpToday.SetCellValueByColumnName("gvExpToday","NOTES",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Args.GV,=,"gvPastDue")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetRowCount("gvAllPOs",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCAllPOs.SetCellValueByColumnName("gvAllPOs","NOTES",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>			Gui.FrmPO.GsGCExpToday.GetRowCount("gvExpToday",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCExpToday.SetCellValueByColumnName("gvExpToday","NOTES",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetRowCount("gvAllPOs",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCAllPOs.SetCellValueByColumnName("gvAllPOs","NOTES",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>			Gui.FrmPO.GsGCPastDue.GetRowCount("gvPastDue",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCPastDue.SetCellValueByColumnName("gvPastDue","NOTES",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.ElseIf(V.Args.PO_Note,=,"USER_5")</string>
+        <string>		F.Intrinsic.Control.If(V.Args.GV,=,"gvAllPOs")</string>
+        <string>			Gui.FrmPO.GsGCPastDue.GetRowCount("gvPastDue",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCPastDue.SetCellValueByColumnName("gvPastDue","USER_5",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>			Gui.FrmPO.GsGCExpToday.GetRowCount("gvExpToday",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCExpToday.SetCellValueByColumnName("gvExpToday","USER_5",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.Args.GV,=,"gvPastDue")</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetRowCount("gvAllPOs",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCAllPOs.SetCellValueByColumnName("gvAllPOs","USER_5",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>			Gui.FrmPO.GsGCExpToday.GetRowCount("gvExpToday",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCExpToday.GetCellValueByColumnName("gvExpToday","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCExpToday.SetCellValueByColumnName("gvExpToday","USER_5",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.FrmPO.GsGCAllPOs.GetRowCount("gvAllPOs",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCAllPOs.GetCellValueByColumnName("gvAllPOs","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCAllPOs.SetCellValueByColumnName("gvAllPOs","USER_5",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string />
+        <string>			Gui.FrmPO.GsGCPastDue.GetRowCount("gvPastDue",V.Local.iRows)</string>
+        <string>			F.Intrinsic.Math.Sub(V.Local.iRows,1,V.Local.iRows)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.iCnt,0,V.Local.iRows,1)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","PURCHASE_ORDER",V.Local.iCnt,V.Local.sPO)</string>
+        <string>				Gui.FrmPO.GsGCPastDue.GetCellValueByColumnName("gvPastDue","RECORD_NO",V.Local.iCnt,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sPO,=,V.Args.PO)</string>
+        <string>				F.Intrinsic.Control.AndIf(V.Local.sLine,=,V.Args.Line)</string>
+        <string>					Gui.FrmPO.GsGCPastDue.SetCellValueByColumnName("gvPastDue","USER_5",V.Local.iCnt,V.Args.Note)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iCnt)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.CheckNote.End</string>
+        <string />
+        <string>Program.Sub.CheckTable.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.bExists.Declare(Boolean)</string>
+        <string />
+        <string>	Gui.FrmPO.lbl1.Caption("Checking Database Table....")</string>
+        <string />
+        <string>	F.ODBC.Connection!con.TableExists("GCG_4559_PO_NOTES",V.Local.bExists)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bExists,=,False)</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE TABLE GCG_4559_PO_NOTES(PO CHAR(7),POLINE CHAR(3),NOTES LONGVARCHAR);")</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE INDEX GCG_4559_PO_NOTES01 USING 1 ON GCG_4559_PO_NOTES(PO);")</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE INDEX GCG_4559_PO_NOTES02 USING 2 ON GCG_4559_PO_NOTES(POLINE);")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.ODBC.Connection!con.TableExists("GCG_4559_PO_CONFCHK",V.Local.bExists)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bExists,=,False)</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE TABLE GCG_4559_PO_CONFCHK(PURCHASE_ORDER CHAR(7),CONF CHAR(1),GS_USER CHAR(8),DATE_CONF DATE);")</string>
+        <string>		F.ODBC.Connection!con.Execute("CREATE INDEX GCG_4559_PO_CONFCHK00 ON GCG_4559_PO_CONFCHK(PURCHASE_ORDER ASC);")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.CheckTable.End</string>
+        <string />
+        <string>Program.Sub.cmdExport_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sFileExport.Declare</string>
+        <string>	V.Local.bExcel.Declare</string>
+        <string>	V.Local.bFileLocked.Declare</string>
+        <string>	V.Local.sMsg.Declare</string>
+        <string />
+        <string>	F.Automation.MSExcel.CheckPresence(V.Local.bExcel)</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(V.Screen.FrmPO!tabPODash.Tab)</string>
+        <string>		F.Intrinsic.Control.Case(0)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.bExcel)</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_AllPOs_Export.xlsx",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCAllPOs.Export(V.Local.sFileExport,"xlsx")</string>
+        <string>					F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_AllPOs_Export.csv",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCAllPOs.Export(V.Local.sFileExport,"csv")</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case(1)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.bExcel)</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_ExpToday_Export.xlsx",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCExpToday.Export(V.Local.sFileExport,"xlsx")</string>
+        <string>					F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_ExpToday_Export.csv",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCExpToday.Export(V.Local.sFileExport,"csv")</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case(2)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.bExcel)</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_PastDue_Export.xls",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCPastDue.Export(V.Local.sFileExport,"xls")</string>
+        <string>					F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_PastDue_Export.csv",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCPastDue.Export(V.Local.sFileExport,"csv")</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.Case(3)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.bExcel)</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_Outside_Export.xls",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCOSV.Export(V.Local.sFileExport,"xls")</string>
+        <string>					F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("{0}\GCG_4559_Outside_Export.csv",V.Caller.LocalGssTempDir,V.Local.sFileExport)</string>
+        <string>				F.Intrinsic.File.IsFileLocked(V.Local.sFileExport,V.Local.bFileLocked)</string>
+        <string>				F.Intrinsic.Control.If(V.Local.bFileLocked)</string>
+        <string>					F.Intrinsic.String.Build("File is already open. Please close and export again.{0}File: {1}",V.Ambient.NewLine,V.Local.sFileExport,V.Local.sMsg)</string>
+        <string>					F.Intrinsic.UI.Msgbox(V.Local.sMsg,"File In Use")</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					Gui.FrmPO.GsGCOSV.Export(V.Local.sFileExport,"csv")</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				F.Intrinsic.Task.ShellExec(0,"",V.Local.sFileExport,"","",1)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.cmdExport_Click.End</string>
+        <string />
+        <string>Program.Sub.picGSSLogo_DblClick.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.frmWeb..Show</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.picGSSLogo_DblClick.End</string>
+        <string />
+        <string>Program.Sub.frmWeb_UnLoad.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	Gui.frmWeb..Visible(False)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.frmWeb_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.cmdGSS_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Task.ShellExec(0,"Open","http://www.globalshopsolutions.com/","","",0)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.cmdGSS_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdServ_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Task.ShellExec(0,"Open","http://gss-service.com/","","",0)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.cmdServ_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdUpd_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Task.ShellExec(0,"Open","http://gss-updates.com/","","",0)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.cmdUpd_Click.End</string>
+        <string />
+        <string>Program.Sub.LoadDTOSV.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	'Check to see if DataTable already Exists and if so, close it</string>
+        <string>	F.Intrinsic.Control.IF(V.DataTable.dtOSV.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("dtOSV")</string>
+        <string>		Gui.FrmPO.GsGCOSV.ClearGrouping("gvOSV")</string>
+        <string>	F.Intrinsic.Control.EndIF</string>
+        <string />
+        <string>	'Create DataTable from SQL</string>
+        <string>	V.Local.sSQL.Declare(String,"SELECT C.OPERATION AS VENDOR,D.NAME_VENDOR,B.PART AS MFG_PART,C.DESCRIPTION,A.QUANTITY,A.JOB,A.JOB_SUFFIX,A.SEQUENCE,C.DATE_DUE,B.DATE_DUE AS JOB_DATE_DUE FROM V_MAT_ONLINE A LEFT OUTER JOIN V_JOB_HEADER B ON A.JOB = B.JOB AND A.JOB_SUFFIX = B.SUFFIX LEFT OUTER JOIN V_JOB_OPERATIONS C ON A.JOB = C.JOB AND A.JOB_SUFFIX = C.SUFFIX AND A.SEQUENCE = C.SEQ LEFT JOIN V_VENDOR_MASTER D ON C.OPERATION = D.VENDOR WHERE A.MOL_DELETE&lt;&gt;'Y' AND A.MOL_TYPE='O' ORDER BY C.DATE_DUE,C.OPERATION;")</string>
+        <string>	F.Data.DataTable.CreateFromSQL("dtOSV","con",V.Local.sSQL,True)</string>
+        <string />
+        <string>	'Call Subroutine to build DataView, GridView and set GridView to Grid on form</string>
+        <string>	F.Intrinsic.Control.CallSub(loaddvgvosv)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDTOSV.End</string>
+        <string />
+        <string>Program.Sub.LoadDvGvOSV.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.iRet.Declare</string>
+        <string>	V.Local.iCnt.Declare</string>
+        <string />
+        <string>	'Create GridView from DataView</string>
+        <string>	Gui.FrmPO.GsGCOSV.AddGridViewFromDataTable("gvOSV","dtOSV")</string>
+        <string>	Gui.FrmPO.GsGCOSV.MainView("gvOSV")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SuspendLayout()</string>
+        <string>	'Set Grid Propertites</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetGridViewProperty("gvOSV","MultiSelect",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetGridViewProperty("gvOSV","AllowSort",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetGridViewProperty("gvOSV","AllowFilter",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetGridViewProperty("gvOSV","OptionsDetailShowDetailTabs",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetGridViewProperty("gvOSV","OptionsViewShowGroupPanel",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetGridViewProperty("gvOSV","EnableAppearanceOddRow",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","VENDOR","Caption","Vendor")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","NAME_VENDOR","Caption","Vendor Name")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","MFG_PART","Caption","Mfg Part")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DESCRIPTION","Caption","Part Description")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","QUANTITY","Caption","Quantity")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB","Caption","Job")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_SUFFIX","Caption","Suffix")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","SEQUENCE","Caption","Seq")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","Caption","Outside Due Date")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","Caption","WO Due Date")	</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","VENDOR","MinWidth","30")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","NAME_VENDOR","MinWidth","150")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","MFG_PART","MinWidth","120")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DESCRIPTION","MinWidth","180")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","QUANTITY","MinWidth","60")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_SUFFIX","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","SEQUENCE","MinWidth","45")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","MinWidth","95")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","MinWidth","90")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","VENDOR","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","NAME_VENDOR","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","MFG_PART","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DESCRIPTION","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","QUANTITY","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_SUFFIX","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","SEQUENCE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","HeaderFontBold",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","HeaderFontBold",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","VENDOR","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","NAME_VENDOR","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","QUANTITY","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_SUFFIX","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","SEQUENCE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","HeaderHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","HeaderHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","VENDOR","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","QUANTITY","CellHAlignment","Far")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_SUFFIX","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","SEQUENCE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","CellHAlignment","Center")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","CellHAlignment","Center")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","MFG_PART","CellForeColor","Blue")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","VENDOR","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","MFG_PART","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DESCRIPTION","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","QUANTITY","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_SUFFIX","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","SEQUENCE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","AllowEdit",False)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","AllowEdit",False)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","VENDOR","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","MFG_PART","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DESCRIPTION","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","QUANTITY","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_SUFFIX","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","SEQUENCE","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","ReadOnly",True)</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","ReadOnly",True)</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","DATE_DUE","DisplayCustomDatetime","d")</string>
+        <string>	Gui.FrmPO.GsGCOSV.SetColumnProperty("gvOSV","JOB_DATE_DUE","DisplayCustomDatetime","d")</string>
+        <string />
+        <string>	Gui.FrmPO.GsGCOSV.ResumeLayout()</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.LoadDvGvOSV.End</string>
+        <string />
+        <string>Program.Sub.GsGCOSV_RowCellClick.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.iRet.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(V.Args.Column)</string>
+        <string>		F.Intrinsic.Control.Case("MFG_PART")</string>
+        <string>		F.Intrinsic.Control.If(V.Screen.FrmPO!optView.Value,=,False)</string>
+        <string>			F.Global.General.LaunchMenuTask(296,0,V.Local.iRet)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.GsGCOSV_RowCellClick.End</string>
+        <string />
+        <string>Program.Sub.cmdResetGsGC_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.bSerialize.Declare</string>
+        <string />
+        <string>	'GvAllPOs</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvAllPOs,V.Local.bSerialize)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bSerialize)</string>
+        <string>		F.Intrinsic.File.DeleteFile(V.Global.sGvAllPOs)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'GvExpToday</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvExpToday,V.Local.bSerialize)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bSerialize)</string>
+        <string>		F.Intrinsic.File.DeleteFile(V.Global.sGvExpToday)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'GvPastDue</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvPastDue,V.Local.bSerialize)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bSerialize)</string>
+        <string>		F.Intrinsic.File.DeleteFile(V.Global.sGvPastDue)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'GvOSV</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvOSV,V.Local.bSerialize)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bSerialize)</string>
+        <string>		F.Intrinsic.File.DeleteFile(V.Global.sGvOSV)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	Gui.frmWeb..Visible(False)</string>
+        <string>	V.Global.bLoadData.Set(False)</string>
+        <string>	F.Intrinsic.Control.CallSub(cmdReFresh_Click)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.cmdResetGsGC_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdNewPO_Click.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.iRowCnt.Declare</string>
+        <string>	V.Local.iRowCnt2.Declare</string>
+        <string />
+        <string>	F.ODBC.Connection!con.ExecuteAndReturn("SELECT COUNT(*) FROM V_PO_HEADER;",V.Local.iRowCnt)</string>
+        <string>	F.Global.General.CallWrapperSync(175200,"N!*!!*!")</string>
+        <string>	F.Global.General.CallWrapperSync(50,"PUR060/N")</string>
+        <string>	F.ODBC.Connection!con.ExecuteAndReturn("SELECT COUNT(*) FROM V_PO_HEADER;",V.Local.iRowCnt2)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.iRowCnt,&lt;&gt;,V.Local.iRowCnt2)</string>
+        <string>		F.Intrinsic.Control.CallSub(cmdrefresh_click)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.cmdNewPO_Click.End</string>
+        <string />
+        <string>Program.Sub.PrintAudit.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.iRet.Declare</string>
+        <string />
+        <string>	F.Intrinsic.Control.SelectCase(V.Global.iPrintAudit)</string>
+        <string>		F.Intrinsic.Control.Case(1)</string>
+        <string>			F.Global.General.CallWrapperSync(50,"PUR119GI")</string>
+        <string>		F.Intrinsic.Control.Case(2)</string>
+        <string>			'Do Not Print</string>
+        <string>		F.Intrinsic.Control.Case(3)</string>
+        <string>			F.Intrinsic.UI.Msgbox("Print Audit Trail?","Print",4,V.Local.iRet)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.iRet,=,6)</string>
+        <string>				F.Global.General.CallWrapperSync(50,"PUR119GI")</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.CaseElse</string>
+        <string>			'Do Nothing</string>
+        <string>	F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End </string>
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.PrintAudit.End</string>
+        <string />
+        <string>Program.Sub.Serialize.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.sSerialize.Declare</string>
+        <string />
+        <string>	'GvAllPOs</string>
+        <string>	Gui.FrmPO.GsGCAllPOs.Serialize("gvAllPOs",V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.File.String2File(V.Global.sGvAllPOs,V.Local.sSerialize)</string>
+        <string>	'GvExpToday</string>
+        <string>	Gui.FrmPO.GsGCExpToday.Serialize("gvExpToday",V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.File.String2File(V.Global.sGvExpToday,V.Local.sSerialize)</string>
+        <string>	'GvPastDue</string>
+        <string>	Gui.FrmPO.GsGCPastDue.Serialize("gvPastDue",V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.File.String2File(V.Global.sGvPastDue,V.Local.sSerialize)</string>
+        <string>	'GvOSV</string>
+        <string>	Gui.FrmPO.GsGCOSV.Serialize("gvOSV",V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.File.String2File(V.Global.sGvOSV,V.Local.sSerialize)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.Serialize.End</string>
+        <string />
+        <string>Program.Sub.Deserialize.Start</string>
+        <string>	F.Intrinsic.Control.Try</string>
+        <string>	V.Local.sError.Declare</string>
+        <string />
+        <string>	V.Local.iTab.Declare</string>
+        <string>	V.Local.sSerialize.Declare</string>
+        <string>	V.Local.bFile.Declare</string>
+        <string />
+        <string>	'Save Tab</string>
+        <string>	V.Local.iTab.Set(V.Screen.FrmPO!tabPODash.Tab)</string>
+        <string />
+        <string>	'GvAllPOs</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvAllPOs,V.Local.bFile)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bFile)</string>
+        <string>		Gui.FrmPO.tabPODash.SetTab(0)</string>
+        <string>		F.Intrinsic.File.File2String(V.Global.sGvAllPOs,V.Local.sSerialize)</string>
+        <string>		Gui.FrmPO.GsGCAllPOs.Deserialize(V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'GvExpToday</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvExpToday,V.Local.bFile)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bFile)</string>
+        <string>		Gui.FrmPO.tabPODash.SetTab(1)</string>
+        <string>		F.Intrinsic.File.File2String(V.Global.sGvExpToday,V.Local.sSerialize)</string>
+        <string>		Gui.FrmPO.GsGCExpToday.Deserialize(V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'GvPastDue</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvPastDue,V.Local.bFile)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bFile)</string>
+        <string>		Gui.FrmPO.tabPODash.SetTab(2)</string>
+        <string>		F.Intrinsic.File.File2String(V.Global.sGvPastDue,V.Local.sSerialize)</string>
+        <string>		Gui.FrmPO.GsGCPastDue.Deserialize(V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'GvOSV</string>
+        <string>	F.Intrinsic.File.Exists(V.Global.sGvOSV,V.Local.bFile)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bFile)</string>
+        <string>		Gui.FrmPO.tabPODash.SetTab(3)</string>
+        <string>		F.Intrinsic.File.File2String(V.Global.sGvOSV,V.Local.sSerialize)</string>
+        <string>		Gui.FrmPO.GsGCOSV.Deserialize(V.Local.sSerialize)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	'Set Tab</string>
+        <string>	Gui.FrmPO.tabPODash.SetTab(V.Local.iTab)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Catch</string>
+        <string>		F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}.",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>		F.Intrinsic.Control.End</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndTry</string>
+        <string>Program.Sub.Deserialize.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$GAB_4163_PU_PurchaseReview_POConf$}$Joey T &amp; AGV$}$5/17/2016 10:18:54 AM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>1994</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>133</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>135</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>142</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>144</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>215</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>217</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>237</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdReFresh_Click</Text>
+        <DisplayText>Program.Sub.cmdReFresh_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>239</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>263</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDTAllPOs</Text>
+        <DisplayText>Program.Sub.LoadDTAllPOs</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>265</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>464</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDvGvAllPOs</Text>
+        <DisplayText>Program.Sub.LoadDvGvAllPOs</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>466</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>488</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDTExpToday</Text>
+        <DisplayText>Program.Sub.LoadDTExpToday</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>490</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>689</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDvGvExpToday</Text>
+        <DisplayText>Program.Sub.LoadDvGvExpToday</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>691</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>713</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDTPastDue</Text>
+        <DisplayText>Program.Sub.LoadDTPastDue</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>715</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>914</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDvGvPastDue</Text>
+        <DisplayText>Program.Sub.LoadDvGvPastDue</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>916</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>963</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCAllPOs_RowCellClick</Text>
+        <DisplayText>Program.Sub.GsGCAllPOs_RowCellClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>965</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1012</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCExpToday_RowCellClick</Text>
+        <DisplayText>Program.Sub.GsGCExpToday_RowCellClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1014</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1061</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCPastDue_RowCellClick</Text>
+        <DisplayText>Program.Sub.GsGCPastDue_RowCellClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1063</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1088</Y>
+        </EndPoint>
+        <Text>Program.Sub.SetAnchors</Text>
+        <DisplayText>Program.Sub.SetAnchors</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1090</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1107</Y>
+        </EndPoint>
+        <Text>Program.Sub.FrmPO_UnLoad</Text>
+        <DisplayText>Program.Sub.FrmPO_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1109</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1121</Y>
+        </EndPoint>
+        <Text>Program.Sub.ControlsDisabled</Text>
+        <DisplayText>Program.Sub.ControlsDisabled</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1123</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1135</Y>
+        </EndPoint>
+        <Text>Program.Sub.ControlsEnabled</Text>
+        <DisplayText>Program.Sub.ControlsEnabled</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1137</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1163</Y>
+        </EndPoint>
+        <Text>Program.Sub.CallSubs</Text>
+        <DisplayText>Program.Sub.CallSubs</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1165</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1248</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCAllPOs_CellValueChanged</Text>
+        <DisplayText>Program.Sub.GsGCAllPOs_CellValueChanged</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1250</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1333</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCExpToday_CellValueChanged</Text>
+        <DisplayText>Program.Sub.GsGCExpToday_CellValueChanged</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1335</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1418</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCPastDue_CellValueChanged</Text>
+        <DisplayText>Program.Sub.GsGCPastDue_CellValueChanged</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1420</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1436</Y>
+        </EndPoint>
+        <Text>Program.Sub.optView_Click</Text>
+        <DisplayText>Program.Sub.optView_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1438</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1454</Y>
+        </EndPoint>
+        <Text>Program.Sub.optEdit_Click</Text>
+        <DisplayText>Program.Sub.optEdit_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1456</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1472</Y>
+        </EndPoint>
+        <Text>Program.Sub.optRecv_Click</Text>
+        <DisplayText>Program.Sub.optRecv_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1474</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1514</Y>
+        </EndPoint>
+        <Text>Program.Sub.CheckPOConf</Text>
+        <DisplayText>Program.Sub.CheckPOConf</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1516</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1668</Y>
+        </EndPoint>
+        <Text>Program.Sub.CheckNote</Text>
+        <DisplayText>Program.Sub.CheckNote</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1670</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1696</Y>
+        </EndPoint>
+        <Text>Program.Sub.CheckTable</Text>
+        <DisplayText>Program.Sub.CheckTable</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1698</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1808</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdExport_Click</Text>
+        <DisplayText>Program.Sub.cmdExport_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1810</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1821</Y>
+        </EndPoint>
+        <Text>Program.Sub.picGSSLogo_DblClick</Text>
+        <DisplayText>Program.Sub.picGSSLogo_DblClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1823</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1834</Y>
+        </EndPoint>
+        <Text>Program.Sub.frmWeb_UnLoad</Text>
+        <DisplayText>Program.Sub.frmWeb_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1836</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1847</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdGSS_Click</Text>
+        <DisplayText>Program.Sub.cmdGSS_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1849</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1860</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdServ_Click</Text>
+        <DisplayText>Program.Sub.cmdServ_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1862</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1873</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdUpd_Click</Text>
+        <DisplayText>Program.Sub.cmdUpd_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1875</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1897</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDTOSV</Text>
+        <DisplayText>Program.Sub.LoadDTOSV</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1899</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2000</Y>
+        </EndPoint>
+        <Text>Program.Sub.LoadDvGvOSV</Text>
+        <DisplayText>Program.Sub.LoadDvGvOSV</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>2002</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2020</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGCOSV_RowCellClick</Text>
+        <DisplayText>Program.Sub.GsGCOSV_RowCellClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>2022</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2058</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdResetGsGC_Click</Text>
+        <DisplayText>Program.Sub.cmdResetGsGC_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>2060</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2080</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdNewPO_Click</Text>
+        <DisplayText>Program.Sub.cmdNewPO_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>2082</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2107</Y>
+        </EndPoint>
+        <Text>Program.Sub.PrintAudit</Text>
+        <DisplayText>Program.Sub.PrintAudit</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>2109</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2134</Y>
+        </EndPoint>
+        <Text>Program.Sub.Serialize</Text>
+        <DisplayText>Program.Sub.Serialize</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>2136</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2185</Y>
+        </EndPoint>
+        <Text>Program.Sub.Deserialize</Text>
+        <DisplayText>Program.Sub.Deserialize</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>2187</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2189</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
