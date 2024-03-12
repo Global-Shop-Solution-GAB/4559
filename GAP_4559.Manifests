@@ -1,0 +1,3 @@
+1GCG_4559_PO_CONFCHK$!$2016.2$!$3$!$False$!$$!$0%!%2PURCHASE_ORDER#!#CHAR(7)#!#False#!#False#!#False#!#$!$CONF#!#CHAR(1)#!#False#!#False#!#False#!#$!$GS_USER#!#CHAR(8)#!#False#!#False#!#False#!#$!$DATE_CONF#!#DATE
+#!#False#!#False#!#False#!#$!$%!%3GCG_4559POCONFCHK00#!#GCG_4559_PO_CONFCHK#!#False#!#PURCHASE_ORDER#!#$!$%!%%!%5GAP_4559%!%^*!*^1GCG_4559_PO_NOTES$!$2016.2$!$3$!$False$!$$!$0%!%2PO#!#CHAR(7)#!#False#!#False#!#False#!#$!$POLINE#!#CHAR(3)#!#False#!#False#!#False#!#$!$NOTES#!#LONGVARCHAR
+#!#False#!#False#!#False#!#$!$%!%3GCG_4559_PO_NOTES01 USING 1#!#GCG_4559_PO_NOTES#!#False#!#PO#!#$!$GCG_4559_PO_NOTES02 USING 2#!#GCG_4559_PO_NOTES#!#False#!#POLINE#!#$!$%!%%!%5GAP_4559%!%^*!*^
